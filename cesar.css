@@ -1,0 +1,14 @@
+body{
+background-color:rgba(11, 168, 252, 0.4); /* цвет фонаa */
+color:#A2285E                             /* цвет символов */
+}
+
+textarea {
+background: #34D0BA;      /* Цвет фона textarea */
+padding: 30px;            /* Поля */
+width: 600px;             /* Ширина */
+height: 300px;            /* Высота */
+box-sizing: border-box;   /* Алгоритм расчёта ширины */
+font-size: 100x;          /* Размер символов */
+display:inline-block;
+}

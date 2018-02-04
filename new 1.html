@@ -1,0 +1,32 @@
+<html> 
+<head> 
+<title>Шифр Цезаря</title> 
+<hr>
+<h1 align="center">Шифр Цезаря</h1>
+<hr>
+<h2 align="center">Шифр назван в честь римского императора Гая Юлия Цезаря, использовавшего его для секретной переписки со своими генералами.</h2> 
+<hr><br>
+<script  src="sccc.js"  type="text/javascript"></script> 
+<link rel="stylesheet" type="text/css" href="cesar.css"> 
+</head> 
+
+<body> 
+<br>
+<div align="center"> 
+<strong><h3>Введите текст для шифрования:</h3></strong>
+<textarea id="1_text1" type="text" ></textarea><br>
+<br>
+<strong>Выберите сдвиг</strong>
+<input id="sm" type="number" min="1" value="1" step="1"> 
+<br> 
+<br> 
+<strong>Выберите действие:</strong><br> 
+<br> 
+<input onclick="caesar_code(0,+sm.value)" type="button" value="Шифровать"> 
+<input onclick="caesar_code(1,+sm.value)" type="button" value="Дешифровать"> 
+<br> 
+<strong><h3>Результат:</h3></strong>
+<textarea id="2_text2" type="text"></textarea><br> 
+</div> 
+</body> 
+</html>
